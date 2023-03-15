@@ -5,39 +5,52 @@ header {
 }
 
 form {
+    justify-content: flex-start;
     margin-top: 50px;
+    float: left;
 }
 
 button {
-
+    background-color: blue;
 }
 
 .weatherContainer {
-   
+    display: block;
+    float: right;
+    margin-left: 150px;
 }
 
 .city {
-    width: 50px;
-    height: 25px;
+    width: 500px;
+    height: 300px;
     border: 2px solid black;
+}
+.forecastTitle {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.forecast {
+    margin-top: 150px;
 }
 
 .day_1 {
-
+    margin-top: 25px;
 }
 
 .day_2 {
-    
+    margin-top: 25px;
 }
 
 .day_3 {
-    
+    margin-top: 25px;
 }
 
 .day_4 {
-    
+    margin-top: 25px;
 }
 
 .day_5 {
-    
+    margin-top: 25px;
 }
