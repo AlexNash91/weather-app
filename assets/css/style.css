@@ -1,13 +1,11 @@
 header {
-
+    background-color: blue;
+    text-align: center;
+    height: 50px;
 }
 
-.input {
-
-}
-
-input {
-
+form {
+    margin-top: 50px;
 }
 
 button {
@@ -19,7 +17,7 @@ button {
 }
 
 .city {
-    
+
 }
 
 .day_1 {
