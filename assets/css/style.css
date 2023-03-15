@@ -13,11 +13,13 @@ button {
 }
 
 .weatherContainer {
-
+   
 }
 
 .city {
-
+    width: 50px;
+    height: 25px;
+    border: 2px solid black;
 }
 
 .day_1 {
