@@ -7,7 +7,7 @@ var cityHumidity = document.getElementById('cityHum')
 StateBtn.addEventListener("click", addState())
 
 function addState() {
-    var city = document.getElementById('cityInput').value
+    var city = document.getElementsByClassName('cityInput').value
     cityName.textContent = city
     console.log(city)
 }
