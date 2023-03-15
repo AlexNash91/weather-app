@@ -4,4 +4,8 @@ var cityTemp = document.getElementById('cityTemp')
 var cityWind = document.getElementById('cityWind')
 var cityHumidity = document.getElementById('cityHum')
 
+StateBtn.addEventListener("click", addState())
 
+addState() {
+
+}
